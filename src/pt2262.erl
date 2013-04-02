@@ -6,8 +6,8 @@
 
 -include_lib("pie/include/pie.hrl").
 
--define(SHORT, 160).
--define(LONG, 500).
+-define(SHORT, 133).
+-define(LONG, 400).
 
 encode(Sig, Cmd) -> 
   Msg0 = lists:foldl(fun(_, Acc) -> 
