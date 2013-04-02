@@ -1,3 +1,6 @@
+This is an Erlang implementation of the pt2262 encoding usable on a Raspberry-PI with pihwm installed. 
+This is inspired by the Arduino code via Ray's DIY Electronics Hobby Projects http://rayshobby.net/?p=2427
+
 To cycle the power on a pt2262 socket do the following, where 17 is my RF transmitter GPIO pin.
 
 1> pie:gpio_init(17, output).
